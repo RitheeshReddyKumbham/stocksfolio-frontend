@@ -1,11 +1,12 @@
-import React from 'react'
+import { useNavigate } from "react-router-dom"
 import './EntryPage.css'
 function EntryPage() {
+    const navigate=useNavigate()
     const clickSignIn = () => {
-        window.location.href = '/signin'
+        navigate('/signin')
     }
     const clickLogIn = () => {
-        window.location.href = '/login'
+        navigate('/login')
     }
   return (
     <div className='entryPage'>
