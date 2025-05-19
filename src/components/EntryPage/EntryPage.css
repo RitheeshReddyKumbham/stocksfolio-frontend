@@ -1,0 +1,33 @@
+.entryPage{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.button {
+    margin: 10px;
+    height: 40px;
+    width: 120px;
+    background-color: #70c9f7;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #57b4e6;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+

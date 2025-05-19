@@ -1,0 +1,19 @@
+.loginPage{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logHead{
+    font-size: large;
+    color: #000;
+    margin: 5px;
+}
+.inps{
+    font-size: medium;
+    margin: 10px;
+    width:250px;
+    border-radius: 4px;
+    padding: 4px;
+}

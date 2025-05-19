@@ -1,0 +1,23 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Calhead{
+    text-align: center;
+}
+.quantity{
+    margin: 10px;
+}
+.calc{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+label{
+    margin-left: 10px;
+}
+.button{
+    align-self: center;
+}
